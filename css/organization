@@ -1,0 +1,22 @@
+.pengalaman-organisasi-container {
+    width: 100%; /* Atur sesuai kebutuhan */
+}
+
+.experience-image {
+    width: 50px; /* Ukuran baru */
+    height: 50px; /* Ukuran baru */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    display: flex; /* Pastikan item dalam list terletak sejajar */
+    align-items: flex-start; /* Rata atas untuk gambar dan teks */
+    gap: 15px; /* Jarak antara gambar dan teks */
+}
